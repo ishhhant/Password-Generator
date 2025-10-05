@@ -21,12 +21,13 @@
  ![image alt](https://github.com/ishhhant/Password-Generator/blob/a5971c8906bc5d3ff5056cc8600fb325da8102c3/public/Screenshot%202025-10-05%20135615.jpg)
 
 ### 🔑 Enter Master Password  
- ![image alt]()
+ ![image alt](https://github.com/ishhhant/Password-Generator/blob/8e6aedd7e6a9297927b456bbbd84c3e7292d8598/public/Screenshot%202025-10-05%20164942.jpg
+)
 
 
 ### 🔐 Password Generator  
 
- ![image alt]()
+ ![image alt](https://github.com/ishhhant/Password-Generator/blob/8e6aedd7e6a9297927b456bbbd84c3e7292d8598/public/Screenshot%202025-10-05%20165028.jpg)
 
 ---
 
@@ -61,12 +62,12 @@
   
     - JWT_SECRET=your_random_secret_key_min_32_chars
 
-5. **Run the development server**:
+5. **Run the development server:**
+   ```bash
+   npm run dev
 
-  npm run dev
 
-
-  Visit: http://localhost:3000
+  - Visit: http://localhost:3000
 
 ---
 
@@ -116,3 +117,32 @@
 - Add environment variables
 
 - Deploy 🚀
+---
+## 🧑‍💻 Development
+  ```bash
+  # Install dependencies
+  npm install
+
+  # Run dev server
+  npm run dev
+ 
+  # Build for production
+  npm run build
+
+  # Start production server
+  npm start
+```
+---
+## 🔐 Crypto Library Choice
+
+Web Crypto API was selected because it’s:
+
+ - 🧩 Built into browsers (no external dependencies)
+
+ - 🔒 Cryptographically secure and well-audited
+
+ - ⚡ Supports AES-GCM & PBKDF2
+
+ - 💨 Non-blocking (async)
+
+ - 🌍 Supported across all modern browsers
