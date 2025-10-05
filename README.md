@@ -61,6 +61,8 @@
     - MONGODB_URI=your_mongodb_connection_string
   
     - JWT_SECRET=your_random_secret_key_min_32_chars
+  
+    - NEXTAUTH_URL=https://password-generator-208.vercel.app
 
 5. **Run the development server:**
    ```bash
