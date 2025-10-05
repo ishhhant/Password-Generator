@@ -2,6 +2,7 @@
 
 A privacy-first password manager with client-side encryption built with Next.js, MongoDB, and TypeScript.
 
+
 ## Features
 
 - **Strong Password Generator**: Customizable length, character types, and exclude look-alike characters
@@ -74,29 +75,6 @@ This app uses **client-side encryption** to ensure your passwords are never stor
 - AES-GCM provides authenticated encryption
 - Master password never leaves your device
 
-### Database Schema
-
-**users collection:**
-\`\`\`javascript
-{
-  _id: ObjectId,
-  email: string,
-  password: string (bcrypt hashed),
-  createdAt: Date
-}
-\`\`\`
-
-**vault_items collection:**
-\`\`\`javascript
-{
-  _id: ObjectId,
-  userId: string,
-  encryptedData: string (base64),
-  salt: string (base64),
-  createdAt: Date,
-  updatedAt: Date
-}
-\`\`\`
 
 ## Usage
 
@@ -120,20 +98,12 @@ This app uses **client-side encryption** to ensure your passwords are never stor
 
 ## Deployment
 
-### Vercel (Recommended)
+### Vercel
 
 1. Push your code to GitHub
 2. Import project in Vercel
 3. Add environment variables in Vercel dashboard
 4. Deploy
-
-### Other Platforms
-
-Works on any platform that supports Next.js:
-- Netlify
-- Railway
-- Render
-- Self-hosted with Node.js
 
 ## Development
 
@@ -150,10 +120,6 @@ npm run build
 # Start production server
 npm start
 \`\`\`
-
-## License
-
-MIT License - feel free to use for personal or commercial projects.
 
 ## Crypto Library Choice
 
