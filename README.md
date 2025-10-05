@@ -18,13 +18,15 @@
 ## 🖼️ Preview  
 
 ### 🏠 Landing Page  
- 
+ ![image alt](https://github.com/ishhhant/Password-Generator/blob/a5971c8906bc5d3ff5056cc8600fb325da8102c3/public/Screenshot%202025-10-05%20135615.jpg)
 
 ### 🔑 Enter Master Password  
+ ![image alt]()
 
 
 ### 🔐 Password Generator  
 
+ ![image alt]()
 
 ---
 
